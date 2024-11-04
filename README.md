@@ -1,6 +1,6 @@
 # Clinical Dialogue Transcription Error Correction with Self-supervision
 
-The following diagram provides an overview of the architecture used for clinical dialogue transcription error correction. This architecture leverages seq2seq models, including T5 and BART, fine-tuned with domain-specific data and optimised for tasks aligned with transcription error correction.
+In this work, we introduce self-supervision strategies for clinical dialogue transcription error correction. The following diagram provides an overview of the architecture used in this approach. This architecture leverages seq2seq models, including T5 and BART, fine-tuned with domain-specific data and optimized for tasks aligned with transcription error correction.
 
 ![Architecture Diagram](images/architecture-diagram.jpg)
 
