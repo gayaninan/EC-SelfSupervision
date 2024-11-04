@@ -17,6 +17,8 @@ For the summarisation task, the encoder input and decoder output sequence length
 `train` data contains the PubMed abstracts generated for the three self-supervision tasks (Standard, Hybrid and Domain-specific objectives).
 `test` data contains the role playing clinical conversations provided by the NHS Grampian (Please note that this dataset will be available upon request).
 
+Note: The fine-tuned models and the train dataset are available on Hugging Face as part of a collection [EC-SelfSupervision](https://huggingface.co/collections/gayanin/ec-selfsupervision-670bf216ce59b1578be165c7). To access and use them, visit the collection and download or load the models and datasets directly into your environment.
+
 ## Reproduce Results
 
 This codebase contains the jupyter notebook implementations for language model fine-tuning, WER evaluation and results generation and the notebooks are avaialble in the `notebooks` directory.
